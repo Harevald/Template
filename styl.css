@@ -1,0 +1,54 @@
+body{
+  font-family: Arial;
+}
+header{
+  height: 500px;
+}
+.headerContainer{
+  display: flex;
+  max-width: 960px;
+}
+.headerImg{
+  background-color: white;
+
+}
+.headerImgBackground{
+  background-color: blue;
+}
+.howItWorks{
+  background-color: blue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.howItWorks p{
+  max-width: 500px;
+  text-align: center;
+}
+
+.howItWorksContainer{
+  display: flex;
+  flex-direction: row;
+
+}
+.howItWorksContainer p{
+  max-width: 150px;
+
+}
+.stepImg{
+  justify-content: space-between;
+}
+.ourTeamImg{
+  max-width: 300px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+}
+.ourTeamImages{
+  display: flex;
+}
+.testimonialsRowsContainer{
+  display: flex;
+  flex-direction: row;
+}
